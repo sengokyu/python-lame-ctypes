@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "lame-ctypes"
-version = "0.1.0"
+version = "0.1.1"
 description = "Just Lame ctypes binding."
 authors = ["sengokyu <sengokyu+gh@gmail.com>"]
 license = "MIT"
