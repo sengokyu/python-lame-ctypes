@@ -1,5 +1,5 @@
-from lame_ctypes import __version__
+import lame_ctypes
 
 
-def test_version():
-    assert __version__ == '0.1.0'
+def test_exporting():
+    assert hasattr(lame_ctypes, "lame_init")
