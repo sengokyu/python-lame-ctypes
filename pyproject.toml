@@ -1,8 +1,12 @@
 [tool.poetry]
 name = "lame-ctypes"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Just Lame ctypes binding."
+authors = ["sengokyu <sengokyu+gh@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/sengokyu/python-lame-ctypes"
+repository = "https://github.com/sengokyu/python-lame-ctypes.git"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
