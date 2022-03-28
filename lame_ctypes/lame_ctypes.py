@@ -10,8 +10,7 @@ _dll = dll("LAME",
                "cli": ["lame"],
                "darwin": ["libmp3lame"],
                "DEFAULT": ["libmp3lame"]
-           },
-           os.getenv("LAME_DLL_PATH"))
+           })
 _bind = _dll.bind_function
 
 
