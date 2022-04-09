@@ -1,6 +1,5 @@
 from ctypes import *
 from enum import Enum
-import os
 from ._dll import dll
 from ._stdarg_ctypes import *
 
