@@ -22,7 +22,7 @@ def read_header(src):
         while(len(buf) > 0):
             nout = hip_decode1_headers(
                 hip,
-                (ctypes.c_ubyte * len(buf)).from_buffer(bytearray(buf)),
+                (c_ubyte * len(buf)).from_buffer(bytearray(buf)),
                 len(buf),
                 pcm_buf_l,
                 pcm_buf_r,
@@ -57,7 +57,7 @@ def decode_to(src, dst):
             while(nout > 0):
                 nout = hip_decode1(
                     hip,
-                    (ctypes.c_ubyte * buf_len).from_buffer(bytearray(buf)),
+                    (c_ubyte * buf_len).from_buffer(bytearray(buf)),
                     buf_len,
                     pcm_buf_l,
                     pcm_buf_r)
